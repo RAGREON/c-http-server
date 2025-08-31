@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gcc -Iinclude main_s.c src/server.c src/socket.c src/endpoint.c -o main_s.exe -lws2_32
+
+gcc -Iinclude main_c.c src/client.c src/socket.c src/endpoint.c -o main_c.exe -lws2_32

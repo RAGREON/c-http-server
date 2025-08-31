@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gcc -Iinclude main_s.c src/server.c src/socket.c -o main_s.exe -lws2_32
